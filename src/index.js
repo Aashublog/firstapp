@@ -1,4 +1,8 @@
-import react from 'react';
-import ReactDOM  from 'react-dom';
-import App from "./App";
-ReactDOM.render(<App/>,document.getElementById("root"));
+<head>
+    <script>
+        function hello(a){
+            document.write(a)
+        }
+        hello('a');
+    </script>
+</head>
